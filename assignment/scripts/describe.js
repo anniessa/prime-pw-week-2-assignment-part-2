@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We set the variable name to the string Dane. 
+// If and only if a the name value is Mary, then 'Hi, Mary!' will be logged.
+// Otherwise, the string 'How do you do?' will be logged.
+// We would expect to see 'How do you do?' in the console log.
 
 //CODE
 /*
@@ -45,8 +45,8 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
+// We set the variable secret.
+// We set the variable code to equal 123.
 // 
 //
 
