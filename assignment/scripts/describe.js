@@ -45,9 +45,9 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// We set the variable secret.
+// Declare a variable secret.
 // We set the variable code to equal 123.
-// 
+// Write the conditional 
 //
 
 //CODE
