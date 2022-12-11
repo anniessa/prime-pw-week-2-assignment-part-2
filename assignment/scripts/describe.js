@@ -151,11 +151,12 @@ if (mix === true) {
 // We check if temp is higher than 39 and if time is greater or equal to  4 
 // -- they are so we console.log 'throw away the food!'
 
+
 /*
-//FIX - we have to change const time to let time because time is not constant here, it can change.
 let temp = 40;
 const time = 4;
 
+//FIX - if (temp > 39 && time >= 4)
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -165,13 +166,17 @@ if (temp > 39 || time >= 4) {
 // We check if age is greater than or equal to minAge 
 // -- it is, so we console.log 'enter'.
 
+
 /*
 let age = 21;
 const minAge = 21;
 
+//FIX - per the instructions, it could be written if(age >= minAge), but this phrasing is the inverse, so it still works.
 if(minAge <= age) {
+//FIX - console.log ('enter');
   console.log('no entry');
 } else {
+//Fix - console.log ('no entry');
   console.log('enter');
 }
 */
