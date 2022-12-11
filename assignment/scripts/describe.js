@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// We set the variable name to the string Dane. 
-// If and only if a the name value is Mary, then 'Hi, Mary!' will be logged.
-// Otherwise, the string 'How do you do?' will be logged.
-// We would expect to see 'How do you do?' in the console log.
+// We set the variable name to the string 'Dane'. 
+// We create a conditional that if and only if a the name value is Mary, then 'Hi, Mary!' will be logged.
+// If anything else is inputted, 'How do you do?' will be logged.
+// We check and we see 'How do you do?' in the console log.
 
 //CODE
 /*
@@ -45,10 +45,12 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// Declare a variable secret.
-// We set the variable code to equal 123.
-// Write the conditional 
-//
+// We declare a variable called 'secret'.
+// Set a variable called code to 123.
+// Write the conditional that if and only if the code is 123, then the variable secret will be 'super'
+// and code will be code multiplied by two
+// Write the conditional that if the code is greater than 250, then secret will be 'duper'.
+// We console.log secret and we expect to see super.
 
 //CODE
 /*
@@ -70,10 +72,13 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We set the variable isStudent equal to true, the age variable equal to 34 and the zip variable equal to 55407.
+// We write the conditional that if and only if isStudent is equal to true and also the zip is greater than 80000,
+// the console will log 'You're a student on the West Coast!'
+// If and only if isStudent is false or the age is less than 30, the console will log 'What are your hobbies?'
+// If and only if isStudent equals true, then the console will log 'Welcome to Prime!'
+// otherwise it will log 'How about the weather?' 
+// We check and it will log 'Welcome to Prime!' 
 
 //CODE
 /*
@@ -130,10 +135,13 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+
+//FIX - the instructions say colorOne should be set to 'blue' and colorTwo should be set to 'red'.
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+//FIX - we have to set colorTwo to 'purple' also.
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -144,6 +152,7 @@ if (mix === true) {
 // -- they are so we console.log 'throw away the food!'
 
 /*
+//FIX - we have to change const time to let time because time is not constant here, it can change.
 let temp = 40;
 const time = 4;
 
